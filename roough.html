@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<!-- Defines HTML5 document type -->
+
+<html lang="en"> 
+<!-- Root element of HTML | lang="en" specifies language -->
+
+<head>
+    <meta charset="UTF-8"> 
+    <!-- Supports all characters (UTF-8 encoding) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Makes website responsive on mobile devices -->
+
+    <title>Complete HTML Demo</title> 
+    <!-- Title shown in browser tab -->
+</head>
+
+<body>
+<!-- All visible content goes inside body -->
+
+<!-- ================= HEADINGS ================= -->
+<h1>Main Heading</h1> <!-- Largest heading -->
+<h2>Sub Heading</h2>
+<h3>Smaller Heading</h3>
+
+<!-- ================= TEXT FORMATTING ================= -->
+<p>This is a paragraph.</p> <!-- Paragraph -->
+
+<b>Bold</b><br> <!-- Bold (visual only) -->
+<strong>Important</strong><br> <!-- Strong importance (SEO + semantic) -->
+
+<i>Italic</i><br> <!-- Italic (visual) -->
+<em>Emphasized</em><br> <!-- Emphasis (semantic) -->
+
+<u>Underline</u><br> <!-- Underline -->
+<mark>Highlighted</mark><br> <!-- Highlight text -->
+
+<small>Small text</small><br> <!-- Smaller text -->
+
+<del>Deleted</del><br> <!-- Deleted text -->
+<ins>Inserted</ins><br> <!-- Inserted text -->
+
+<sub>Subscript</sub> H<sub>2</sub>O<br> <!-- Subscript -->
+<sup>Superscript</sup> X<sup>2</sup><br> <!-- Superscript -->
+
+<!-- ================= LINKS ================= -->
+<a href="https://www.google.com" target="_blank">
+    Go to Google
+</a> 
+<!-- Anchor tag | target="_blank" opens in new tab -->
+
+<!-- ================= IMAGES ================= -->
+<img src="https://picsum.photos/200" alt="Random Image"> 
+<!-- Displays image | alt is fallback text -->
+
+<!-- ================= LISTS ================= -->
+<h3>Ordered List</h3>
+<ol> <!-- Numbered list -->
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ol>
+
+<h3>Unordered List</h3>
+<ul> <!-- Bullet list -->
+    <li>Item A</li>
+    <li>Item B</li>
+</ul>
+
+<h3>Description List</h3>
+<dl> <!-- Definition list -->
+    <dt>HTML</dt> <!-- Term -->
+    <dd>Markup Language</dd> <!-- Description -->
+</dl>
+
+<!-- ================= TABLE ================= -->
+<table border="1"> <!-- Table with border -->
+    <tr> <!-- Table row -->
+        <th>Name</th> <!-- Header cell -->
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>John</td> <!-- Data cell -->
+        <td>25</td>
+    </tr>
+</table>
+
+<!-- ================= FORMS ================= -->
+<form> <!-- Form to collect user data -->
+
+    <label>Name:</label>
+    <input type="text"><br><br> <!-- Text input -->
+
+    <label>Password:</label>
+    <input type="password"><br><br> <!-- Password field -->
+
+    <label>Email:</label>
+    <input type="email"><br><br> <!-- Email validation -->
+
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br><br>
+    <!-- Radio buttons (single selection) -->
+
+    <label>Skills:</label>
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS<br><br>
+    <!-- Checkboxes (multiple selection) -->
+
+    <label>Country:</label>
+    <select> <!-- Dropdown -->
+        <option>India</option>
+        <option>USA</option>
+    </select><br><br>
+
+    <textarea placeholder="Write here..."></textarea><br><br>
+    <!-- Multi-line input -->
+
+    <input type="submit" value="Submit"> 
+    <!-- Submit button -->
+</form>
+
+<!-- ================= MEDIA ================= -->
+<h3>Audio</h3>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+</audio>
+<!-- Audio player -->
+
+<h3>Video</h3>
+<video width="300" controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+<!-- Video player -->
+
+<!-- ================= SEMANTIC TAGS ================= -->
+<header>Header Section</header> <!-- Top section -->
+<nav>Navigation Bar</nav> <!-- Menu -->
+<section>Main Section</section> <!-- Content section -->
+<article>Article Content</article> <!-- Independent content -->
+<aside>Sidebar</aside> <!-- Side content -->
+<footer>Footer Section</footer> <!-- Bottom section -->
+
+<!-- ================= DETAILS ================= -->
+<details>
+    <summary>Click to expand</summary>
+    Hidden content here!
+</details>
+<!-- Expandable content -->
+
+<!-- ================= PROGRESS ================= -->
+<progress value="70" max="100"></progress> 
+<!-- Progress bar -->
+
+<!-- ================= METER ================= -->
+<meter value="0.6">60%</meter> 
+<!-- Measurement (like battery/score) -->
+
+<!-- ================= IFRAME ================= -->
+<iframe src="https://example.com" width="300" height="200"></iframe>
+<!-- Embeds another webpage -->
+
+<!-- ================= ABBREVIATION ================= -->
+<p>
+<abbr title="HyperText Markup Language">HTML</abbr> is cool
+</p>
+<!-- Shows full form on hover -->
+
+<!-- ================= CODE ================= -->
+<code>print("Hello World")</code>
+<!-- Inline code -->
+
+<!-- ================= PRE ================= -->
+<pre>
+This is preformatted text
+    with spaces preserved
+</pre>
+<!-- Preserves spacing -->
+
+<!-- ================= QUOTE ================= -->
+<blockquote>
+    This is a blockquote example
+</blockquote>
+<!-- Quoted content -->
+
+<!-- ================= MARQUEE (OLD) ================= -->
+<marquee>Scrolling Text</marquee>
+<!-- Deprecated (not recommended in modern HTML) -->
+
+</body>
+</html>
